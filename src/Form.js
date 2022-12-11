@@ -31,6 +31,25 @@ export function Form({ onSubmit }) {
 
   return (
     <>
+  <div>
+      <form>
+        <fieldset>
+            <legend>Data goes here</legend>
+            
+            <label >Panel Type:</label>
+            <select>
+                <option name="choice1" value="Panel1" onclick="color(this.value)">Panel1</option>
+                <option name="choice2" value="Panel2" onclick="color(this.value)">Panel2</option>
+            </select><br></br>
+            <label >Apple Type:</label>
+            <select>
+                <option name="choice1" value="Gala" onclick="color(this.value)">Gala</option>
+                <option name="choice2" value="Fuji" onclick="color(this.value)">Fuji</option>
+            </select><br></br>
+        </fieldset>
+    </form>
+
+    </div>
       <Paper style={{ padding: 16, margin: 16 }}>
         <Grid container spacing={1}>
 
