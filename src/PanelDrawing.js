@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import Konva from 'konva';
 
 
-export const CanvasPanel = ({panels}) => {
+export const PanelDrawing = ({panels}) => {
     const [annotations, setAnnotations] = useState([]);
     const [newAnnotation, setNewAnnotation] = useState([]);
   
